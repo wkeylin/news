@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>影观传媒</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_fob9en91745f80k9.css">
+    <style>
+    html {
+        font-size: 62.5%;
+        /* 10÷16=62.5% */
+    }
+    </style>
+</head>
+
+<body style="background:url('img/kandian3.png') top;background-size: cover;">
+    <div class="main">
+        <div class="col-md-10 col-md-offset-1 clear-padding">
+            <div class="col-md-12 col-xs-12 col-sm-12 clear-padding nav-bac">
+                <div class="col-md-2 col-xs-2 col-sm-2 s-width">
+                    <a href="main.htm"><img class="img-responsive pic5-1" src="img/shouye-3_01_03.png" alt=""></a>
+                </div>
+                <div class="col-md-2 col-xs-2 s-width col-sm-2 ">
+                    <a href="news.html"><img class="img-responsive pic5-1" src="img/shouye-3_01_05.png" alt=""></a>
+                </div>
+                <div class="col-md-2 col-xs-2 s-width  col-sm-2">
+                    <a href="kandian.html"><img class="img-responsive pic5-1" src="img/shouye-3_01_12.png" alt=""></a>
+                </div>
+                <div class="col-md-2 col-xs-2 s-width  col-sm-2">
+                    <a href="toupiao.html"><img class="img-responsive pic5-1" src="img/shouye-3_01_09.png" alt=""></a>
+                </div>
+                <div class="col-md-2 col-xs-2 s-width  col-sm-2 active">
+                    <a href="media.html"><img class="img-responsive pic5-1" src="img/shouye-3_01_15.png" alt=""></a>
+                </div>
+                <div class="col-md-2 col-xs-2 s-width  col-sm-2">
+                    <a href="about.html"><img class="img-responsive pic5-1" src="img/shouye-3_01_07.png" alt=""></a>
+                </div>
+            </div>
+            <div class="container news-container clear-padding">
+                <div class="col-md-2 hidden-xs hidden-sm " style="padding: 0;">
+                    <div class="media-title">
+                        <img class="img-responsive pic8" src="img/media_03.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-8 clear-padding">
+                    <div class="row" style="margin-bottom: 0.7rem;">
+                        <div class="col-md-6 media-t-title">
+                            <a href="http://news.upc.edu.cn/zt/cm/">第一届传媒文化节网站</a>
+                            <a href=""><img class="img-responsive" src="img/media_09.png" alt=""></a>
+                        </div>
+                        <div class="col-md-6  media-t-title">
+                            <a href="http://news.upc.edu.cn/zt/2015zt/2015cmwhj/index.html">第二届传媒文化节网站</a>
+                            <a href=""><img class="img-responsive" src="img/media_13.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6  media-t-title">
+                            <a href="http://211.87.178.211/_s42/main.psp">第三届传媒文化节网站</a>
+                            <br>
+                            <a href=""><img src="img/media_06.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    (function(win) {
+        var doc = win.document;
+        var docEl = doc.documentElement;
+        var tid;
+
+        function refreshRem() {
+            var width = docEl.getBoundingClientRect().width;
+            var rem = width / 37.5; // 将屏幕宽度分成10份， 1份为1rem  
+            docEl.style.fontSize = rem + 'px';
+        }
+        win.addEventListener('resize', function() {
+            clearTimeout(tid);
+            tid = setTimeout(refreshRem, 300);
+        }, false);
+        win.addEventListener('pageshow', function(e) {
+            if (e.persisted) {
+                clearTimeout(tid);
+                tid = setTimeout(refreshRem, 300);
+            }
+        }, false);
+        refreshRem();
+    })(window);
+    </script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>

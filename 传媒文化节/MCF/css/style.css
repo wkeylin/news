@@ -1,0 +1,121 @@
+/* div{border: 1px solid black;} */
+.clear-padding{padding: 0px!important;}
+.mnav{height: 80px;}
+.pic1{margin: 0 auto;width: 100%;height: 100%;}
+.pic1-1{display: block;margin: 0 auto;}
+.nav-icon{background: #e3ecf2;height: 100%;width: 17%;}
+.nav-menue{background: #33ccff;height: 100%;}
+.pic2{height: 100%;}
+.active{background: #89d8f9;}
+.index-col-md-2{width: 14%;height: 100%;padding: 0px;}
+.pic3-1{height: 100%;display: block;margin:0 auto;}
+.s-width:hover{background: #89d8f9;}
+.col-xs-2{width: 16%;}
+.container{width: 75%;}
+.bkground{background: #ebeeef;}
+.nav-text{height: 80px;line-height: 80px;color: #7db9ee;font-weight: bold;font-size: 2rem;text-align: center;cursor: pointer;}
+.nav-text:hover{background: #d2d9d9;}
+.text_active{background: #d2d9d9;}
+.content{background: #ffffff;height: 30rem;margin-bottom: 6rem;}
+.mr-top{margin-top: 2rem;border-top: 2px solid black;border-bottom: 2px solid black;}
+.self-foot{background: #fd6137;font-size: 1.8rem;color: white;text-decoration: underline;width: 110px;text-align:center;margin-top: 12px;margin-bottom: 12px;}
+.self-content{margin-top: 12px;margin-bottom: 12px;font-size: 1.5rem;}
+.pic4{max-width: 100px;margin-right: 20px;}
+
+
+.pic5-1{min-height: 98px;margin:0 auto;}
+.about-title{height: 25rem;}
+.about-content{margin-top: 20rem;}
+.about-title{width: 10rem;margin:0 auto;background: #3cc1f8;color: white;font-size: 4rem;text-align: center;position: relative;box-shadow:0px 0px 8px #89d8f9;}
+.about-title-s{width: 100%;position: absolute; transform: translateY(-50%);top:50%;}
+.about-title-p{margin-top: 2rem;}
+.nav-bac{background: #3cc1f8;}
+@media only screen and (max-width: 1600px) and (min-width: 900px){
+    .about-title{height: 25rem;width: 8rem;}
+    .about-content{margin-top: 17rem;}
+    .about-row{height: 10rem;}
+    .about-r-l{height: 10rem;font-size: 1.6rem;width: 20%;position: relative;}
+    .about-title-p{width: 14%;}
+	.about-row-s{width:100%;position: absolute; transform: translateY(-50%);top:50%;left: 0;}
+	.kandian-container{margin-top: 4rem;}
+	.details-container{margin-top: 3rem;}
+    .news-container{margin-top: 5rem;width: 90%;}
+    .pic7{max-width: 100%;}
+    #textarea{margin-left: 60px;}
+    .index-3{margin-top: 4rem;}
+    .index-1{margin-top: 7rem;}
+}
+@media only screen and (max-width: 2400px) and (min-width: 1601px){
+    .about-title{height: 35rem;}
+    .about-content{margin-top: 25rem;}
+    .about-row{height: 14rem;}
+    .about-title-p{margin-top: 5rem;}
+    .about-r-l{height: 14rem;position: relative;}
+    .about-row-p{margin-left:13rem;}
+    .about-row-s{width:100%;position: absolute; transform: translateY(-50%);top:50%;left: 0;}
+    .kandian-container{margin-top: 4rem;}
+    .details-container{margin-top: 3rem;}
+    .news-container{margin-top: 5rem;width: 90%;}
+    .pic7{width:85%;}
+    #textarea{margin-left: 60px;}
+    .index-3{margin-left: 11rem;margin-top: 4rem;}
+    .index-1{margin-top: 10rem;}
+}
+.about-r-l{border-bottom: 2px solid white;border-left: 2px solid white;background: #3cc1f8;}
+.about-r-l:hover{background: #83d6e9;}
+.pic6{margin:0 auto;}
+.pic8{display: block;margin:0 auto;}
+
+.about-row-s span{text-align:center;display: block;color: white;font-size: 2rem;}
+@media only screen and (max-width: 1000px){
+    .about-content{margin-top: 0rem;}
+    .about-row-s span{font-size: 1rem;}
+    .about-r-l{width:20%;min-height:}
+	.about-row-s{min-height: 100px;}
+    .details-container{margin-top: 3rem;}
+    .kandian-title-s2{line-height: 2rem!important;}
+    .kandian-title-s1{line-height: 2rem!important;}
+    .news-container{/* margin-top: 5rem; */width: 90%;}
+    .news-c-bottom{margin-top: 5rem;}
+
+}
+.kandian-container{width: 90%;background: #323232;}
+.kandian-title:before{font-size:1rem;content: "关于我们：";display:block;color:#fff;height: 0;width: 10rem;line-height:2rem;padding-left:5px;border-width: 0px 4rem 2rem 0px;border-style: none solid solid;border-color: transparent transparent #2eb398;}
+.kandian-title-s1{color: white;text-align: center;line-height: 1rem;font-size: 0.5rem;}
+.kandian-title-s2{color: white;background:#454545;min-height: 1rem;line-height: 1rem;font-size: 0.4rem;}
+.kandian-col{width: 100%;margin-top: 20px;}
+.kandian-show{height: 145px;}
+h4{color: #f65109;}
+.details-css li{list-style: none;}
+.row{margin-left: 0;}
+.details-container{width: 90%;}
+.back{width: 3rem;height: 1.3rem;background: rgba(0, 0, 0,0.4);line-height: 1.3rem;font-size: 0.8rem;text-align:center;}
+.back a{color: white;}
+.news-c-bottom{height: 9rem;background: white;position: relative;}
+.news-c-top{width:0;height:0;margin-bottom:0.3rem;border-width:50px 50px 50px 50px;border-style:solid;border-color:transparent transparent #3589bc #3589bc;}
+
+.news-c-bottom .col-md-10 ul li{list-style: none;line-height: 1rem;font-size: 0.6rem;text-align: center;}
+.news-c-bottom .col-md-10 ul li a{color: #f67f04;text-decoration: underline;}
+.news-c-bottom .col-md-10 ul{position: relative;transform: translateY(-50%);top:50%;margin:0 auto!important;}
+.new-c-left{height: 100%;padding: 0;margin:0;}
+.new-c-right{height: 100%;padding: 0;margin:0;}
+.news-c-content{height: 100%;}
+.iconfont{cursor: pointer; line-height: 2rem; display:block;width: 100%;height: 2rem;font-size: 1rem!important;text-align: center;padding: 0;position: relative;transform: translateY(-50%);top:50%;}
+.iconfont:hover{color: gray;}
+.media-title{width: 100%;}
+.media-t-title{text-align: center;}
+.media-t-title img{display: block;margin:0 auto;}
+.media-t-title a{color: white;font-size: 0.5rem;}
+.radio-inline img{width: 208px;height: 212px;}
+.pic10{margin:0 auto;height: 144px;}
+.pic-p:hover{background: #898889;}
+.button{height: 100%;}
+.about-icon{font-size: 0.7rem!important;display: block;width: 100%;line-height: 0.7rem;height: 0.7rem;}
+#index-banner{height: 100%;}
+.index-icon{width: 100%;font-size: 4rem!important;}
+.index-b-s{height: 100%;}
+.index-b-s-s{height: 100%;}
+.index-content{height: 100%;}
+.index-2{height: 81%;}
+.index-1{height: 100%; text-indent: 2rem;font-size: 2rem;text-decoration: underline;}
+.index-2-1{border: 1px solid #bbb;height: 100%; text-decoration: underline;font-size: 1.4rem;overflow: auto;text-indent: 2rem;}
